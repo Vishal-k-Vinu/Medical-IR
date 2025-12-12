@@ -4,7 +4,7 @@ A domain-specific semantic search engine for retrieving medical information usin
 
     Overview
 
-* This is an implements a Medical Information Retrieval (IR) System capable of:
+* This is an implementation of Medical Information Retrieval (IR) System capable of:
 * Generating vector embeddings from medical text
 * Storing and retrieving vectors using Pinecone Vector Database
 * Enhancing user queries using a Groq LLM 
