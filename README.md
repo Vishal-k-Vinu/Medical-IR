@@ -4,7 +4,7 @@ A domain-specific semantic search engine for retrieving medical information usin
 
     Overview
 
-* This task implements a full Medical Information Retrieval (IR) System capable of:
+* This is an implements a Medical Information Retrieval (IR) System capable of:
 * Generating vector embeddings from medical text
 * Storing and retrieving vectors using Pinecone Vector Database
 * Enhancing user queries using a Groq LLM 
@@ -114,7 +114,7 @@ These fields are merged into a single text column during embedding.
 
       Ranking Engine (Already Handled by Pinecone)
 
-* This project does not require a custom ranking engine implementation, because:
+* This does not require a custom ranking engine implementation, because:
 Pinecone automatically provides ranking
 When you perform a query:
 index.query(vector=embedding, top_k=5)
