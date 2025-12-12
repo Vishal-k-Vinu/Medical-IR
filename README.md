@@ -18,7 +18,7 @@ Remedies & treatments
 Prevention
 Risk factors
 
-     Project Architecture
+      Project Architecture
 
 medical-ir-system/
 │
@@ -112,7 +112,7 @@ The dataset (medical_dataset.csv) generated using gpt includes:
 These fields are merged into a single text column during embedding.
 
 
-     Ranking Engine (Already Handled by Pinecone)
+      Ranking Engine (Already Handled by Pinecone)
 
 * This project does not require a custom ranking engine implementation, because:
 Pinecone automatically provides ranking
@@ -153,7 +153,7 @@ query_intelligence.py:
 * Greatly boosts search accuracy
 * This step is automatic in the UI.
 
-     Streamlit User Interface
+      Streamlit User Interface
 
 Features:
 * Query input
